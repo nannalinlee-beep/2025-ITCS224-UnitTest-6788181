@@ -29,5 +29,5 @@ class TestGoldenAge(unittest.TestCase):
                 self.assertEqual(result, "Golden age")
 
 
-if name == "main":
+if __name__ == "__main__":
     unittest.main(verbosity=2)
